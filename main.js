@@ -25,6 +25,8 @@ const store = createStore(rootReducer,
 
 store.subscribe(() => {
   var c = "123" + "333"
+  var c = "123" + "333" + "456"
+  console.log(c)
   saveState(store.getState());
 });
 
